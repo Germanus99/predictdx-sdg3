@@ -1,32 +1,29 @@
-# SDG 13: Climate Action – CO2 Emissions Forecasting 
+# 🌍 SDG 13: Climate Action – CO2 Emissions Forecasting
 
-## 📌 Project Overview
+This project supports **UN Sustainable Development Goal 13** by using machine learning to forecast CO2 emissions using historical data.
 
-This project demonstrates how **Machine Learning** can support **UN SDG 13: Climate Action** by predicting future **CO2 emissions** based on historical data using a **Linear Regression** model.
+## ✅ Problem Statement
+Predict carbon emissions trends to inform policies aimed at reducing climate change impact.
 
-## 🎯 Goal
-To build a supervised learning model that forecasts CO2 emissions, helping governments and organizations make data-informed decisions for climate policy.
-
-## 🛠️ Tools Used
-- Python
-- Jupyter Notebook
-- Pandas, NumPy
-- Scikit-learn
-- Matplotlib
-
-## 📊 ML Approach
-- **Type**: Supervised Learning
+## 🤖 Machine Learning
 - **Model**: Linear Regression
-- **Metrics**: R² Score, MAE, RMSE
+- **Approach**: Supervised Learning
+- **Tools**: Python, pandas, matplotlib, scikit-learn
 
-## 🧠 Ethical Reflection
-- ⚖️ Fairness: Ensured dataset is not biased.
-- 🌱 Sustainability: Encourages proactive carbon reduction.
+## 📈 Results
+- Evaluated using R², MAE, RMSE
+- Visualized emissions trend and predictions
 
-## 🖼️ Demo Screenshot
-_Add a plot screenshot here once the notebook runs._
+## 🧠 Ethics
+- Transparency: Code is open.
+- Fairness: Based on reliable climate metrics.
+- Limitation: Uses synthetic data for demo.
 
-## 📂 Files
-- SDG13_CO2_Forecasting.ipynb
-- sdg13_model.py
-- requirements.txt
+## 💻 How to Run
+```bash
+pip install -r requirements.txt
+python sdg13_model.py
+```
+
+## 📷 Screenshot
+Include a screenshot of your plot here after running the script.
